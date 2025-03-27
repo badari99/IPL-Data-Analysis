@@ -18,7 +18,7 @@ This project extracts **IPL matches data** from an **AWS S3 bucket**, processes 
 - **Power BI** - Data Visualization
 
 ## Steps Implemented
-### 1. Data Extraction from S3 - I Used S3 bucket from Darshil Parmar IPL Data Analysis projetc
+### 1. Data Extraction from S3 - I Used S3 bucket from Darshil Parmar IPL Data Analysis project
 Used Databricks to read IPL match data stored in an S3 bucket.
 ```python
 from pyspark.sql import SparkSession
