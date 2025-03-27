@@ -81,13 +81,13 @@ result.show()
 # COMMAND ----------
 
 snowflake_options = {
-    "sfURL": "https://zatijti-ls52831.snowflakecomputing.com",
-    "sfDatabase": "MY_FIRST_DB",
-    "sfSchema": "MY_SCHEMA",
+    "sfURL": "SNOWFLAKE LINK",
+    "sfDatabase": "YOUR DB",
+    "sfSchema": "YOUR SCHEMA",
     "sfWarehouse": "COMPUTE_WH",
     "sfRole": "ACCOUNTADMIN",  # Optional
-    "sfUser": "badari",
-    "sfPassword": "Suvarchala@12345"
+    "sfUser": "USER NAME",
+    "sfPassword": "PASSWORD"
 }
 
 # COMMAND ----------
