@@ -1,0 +1,14 @@
+CREATE OR REPLACE DATABASE my_first_DB
+CREATE OR REPLACE SCHEMA my_schema
+CREATE OR REPLACE TABLE TEAM_PERFORMANCE (
+    season_year INT,
+    team STRING,
+    matches_played INT,
+    wins INT,
+    no_results INT,
+    tied INT,
+    losses INT,
+    points INT
+);
+select * from team_performance;
+
